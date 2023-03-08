@@ -12,9 +12,9 @@ export default function Counter() {
     <div>
       <div className="container">
         <div className='counter_app rounded'>
-        <button type="button" class="btn btn-warning px-3 mx-3" onClick={()=>setCounter(counter+1)}> +</button>
+        <button type="button" class="btn btn-danger px-3 mx-3" onClick={()=>setCounter(counter+1)}> +</button>
         <h4 className='text-primary '>{counter}</h4>
-      <button type="button" class="btn btn-warning px-3 mx-3 " onClick={()=>setCounter(counter >0 && counter-1)}> -</button>
+      <button type="button" class="btn btn-danger px-3 mx-3 " onClick={()=>setCounter(counter >0 && counter-1)}> -</button>
         </div>
       </div>
     </div>
